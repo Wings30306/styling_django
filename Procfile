@@ -1,1 +1,1 @@
-web: gunicorn django_auth.wsgi:application 
+web: python manage.py runserver
